@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>GL | </title>
+
+    <!-- FONTS -->
+    <script src="//use.edgefonts.net/abel:n4:all.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/list.css" rel="stylesheet"> 
+  </head>
+  <body>
+
+  <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/GL_logo1.png"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">MY LISTS</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CHOOSE AN ACTIVITY<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="active"><a href="#">Backpacking</a></li>
+                <li><a href="#">Day Hiking</a></li>
+                <li><a href="#">Backcountry Skiing</a></li>
+                <!-- <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li> -->
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!-- BOOTSTRAP JUMBOTRON -->
+      <div id="top"></div>
+      <div class="jumbotron">
+        <h1>USERLIST <!-- <span id="counter"> --></span></h1>
+      </div>
+
+<!-- LIST OF ITEMS -->
+    <div class="gearList">
+        <ul>
+          <!-- USER LIST GOES HERE -->
+        </ul>
+      </div>
+
+<!-- FORM FOR ADDING ITEMS -->
+    <div class="form">
+      <div id="newItemButton"><button href="#" id="showForm">Add Gear</button></div>
+        <form id="newItemForm">
+          <input type="text" id="itemDescription" placeholder="Add description" />
+          <input type="submit" id="add" value="add" />
+        </form>
+      </div>
+    </div>
+
+<!-- BOOTSTRAP STICKY FOOTER -->
+    <footer class="footer" class="gl-footer">
+      <div class="container">
+        <p class="text-muted">&copy 2015 MNK_designs  | <a href="#top">Back to top</a></p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/gearList1.js"></script>
+  </body>
+</html>
